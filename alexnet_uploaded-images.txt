@@ -1,0 +1,31 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = alexnet 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 4 key-value pairs.
+Below are 4 of them:
+ 1 key:                Sea_lion_01.jpg  label:                   sea lion
+ 2 key: German_shorthaired_pointer_01.jpg  label: german shorthaired pointer
+ 3 key:           Space_shuttle_01.jpg  label:              space shuttle
+ 4 key: German_shorthaired_pointer_02.jpg  label: german shorthaired pointer
+{'Sea_lion_01.jpg': ['sea lion', 'sea lion', 1, 0, 0], 'German_shorthaired_pointer_01.jpg': ['german shorthaired pointer', 'german shorthaired pointer', 1, 1, 1], 'Space_shuttle_01.jpg': ['space shuttle', 'space shuttle', 1, 0, 0], 'German_shorthaired_pointer_02.jpg': ['german shorthaired pointer', 'german shorthaired pointer', 1, 1, 1]}
+
+--------------------------------------------------
+
+Results using alexnet
+
+Statistics:
+100.0% Correct Dogs
+100.0% Correct Breed
+100.0% Correct "Not-a" Dog
+100.0% Match
+
+Misclassified Dogs:
+
+Misclassified Dog Breeds:
+
+--------------------------------------------------
+
+
+** Total Elapsed Runtime: 0:0:0

@@ -1,0 +1,37 @@
+Command Line Arguments:
+     dir = pet_images/ 
+    arch = resnet 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 40 key-value pairs.
+Below are 10 of them:
+ 1 key:                     cat_07.jpg  label:                        cat
+ 2 key:            Dalmatian_04068.jpg  label:                  dalmatian
+ 3 key:               Collie_03797.jpg  label:                     collie
+ 4 key:        Saint_bernard_08010.jpg  label:              saint bernard
+ 5 key:               Poodle_07956.jpg  label:                     poodle
+ 6 key:     Golden_retriever_05223.jpg  label:           golden retriever
+ 7 key:                 Rabbit_002.jpg  label:                     rabbit
+ 8 key:            Dalmatian_04037.jpg  label:                  dalmatian
+ 9 key:              polar_bear_04.jpg  label:                 polar bear
+10 key:  German_shepherd_dog_04931.jpg  label:        german shepherd dog
+
+--------------------------------------------------
+
+Results using resnet
+
+Statistics:
+100.0% Correct Dogs
+90.0% Correct Breed
+90.0% Correct "Not-a" Dog
+82.5% Match
+
+Misclassified Dogs:
+Image: cat_01.jpg | Classification: norwegian elkhound, elkhound
+
+Misclassified Dog Breeds:
+
+--------------------------------------------------
+
+
+** Total Elapsed Runtime: 0:0:0
