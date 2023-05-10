@@ -30,6 +30,9 @@ Misclassified Dogs:
 Image: cat_01.jpg | Classification: norwegian elkhound, elkhound
 
 Misclassified Dog Breeds:
+Image: Beagle_01170.jpg | Classification: walker hound, walker foxhound
+Image: Great_pyrenees_05367.jpg | Classification: kuvasz
+Image: Golden_retriever_05182.jpg | Classification: leonberg
 
 --------------------------------------------------
 

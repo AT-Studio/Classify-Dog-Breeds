@@ -29,6 +29,8 @@ Statistics:
 Misclassified Dogs:
 
 Misclassified Dog Breeds:
+Image: Beagle_01170.jpg | Classification: walker hound, walker foxhound
+Image: Great_pyrenees_05367.jpg | Classification: kuvasz
 
 --------------------------------------------------
 

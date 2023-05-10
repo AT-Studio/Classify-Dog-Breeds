@@ -66,9 +66,8 @@ def classify_images(images_dir, results_dic, model):
 
         full_path = (images_dir + filename, filename)[images_dir is None]
 
-        classification = classifier(full_path, model).lower()
-        is_matches = image_data[0] in classification
+        classification = classifier(full_path, model).lower().strip()
+        has_matching_labels = image_data[0] in classification
 
-        image_data.append(classification)
-        image_data.append(int(is_matches))
+        image_data.extend([classification, int(has_matching_labels)])
     None

@@ -29,6 +29,12 @@ Statistics:
 Misclassified Dogs:
 
 Misclassified Dog Breeds:
+Image: Beagle_01170.jpg | Classification: walker hound, walker foxhound
+Image: Great_pyrenees_05367.jpg | Classification: kuvasz
+Image: Golden_retriever_05182.jpg | Classification: tibetan mastiff
+Image: Golden_retriever_05257.jpg | Classification: afghan hound, afghan
+Image: Beagle_01141.jpg | Classification: english foxhound
+Image: Boston_terrier_02285.jpg | Classification: basenji
 
 --------------------------------------------------
 

@@ -106,5 +106,4 @@ def calculates_results_stats(results_dic):
         "n_label_matches": num_label_matches,
         "pct_matches": num_label_matches / num_images * 100,
     }
-    print(results_dic)
     return stats_dic

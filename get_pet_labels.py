@@ -41,11 +41,12 @@ def get_pet_labels(image_dir):
     dic = {}
     filename_list = listdir(image_dir)
     for filename in filename_list:
-        split_name = filename.split("_")
         label = ""
-        for section in split_name:
-            if section.isalpha():
-                label += section
-                label += " "
+        # First split on '.' to get rid of '.' and discard file extension
+        for first_partition in filename.split(".")[0:-1]:
+            for second_partition in first_partition.split("_"):
+                if second_partition.isalpha():
+                    label += second_partition
+                    label += " "
         dic[filename] = [label.strip().lower()]
     return dic
