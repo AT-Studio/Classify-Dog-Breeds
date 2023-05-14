@@ -41,6 +41,8 @@ def get_pet_labels(image_dir):
     dic = {}
     filename_list = listdir(image_dir)
     for filename in filename_list:
+        if filename[0] == ".":
+            continue
         label = ""
         # First split on '.' to get rid of '.' and discard file extension
         for first_partition in filename.split(".")[0:-1]:
